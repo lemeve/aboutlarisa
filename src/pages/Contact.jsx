@@ -1,3 +1,4 @@
+```jsx
 const Contact = () => {
   return (
     <>
@@ -25,62 +26,42 @@ const Contact = () => {
             </h2>
 
             <p>
-              Tell Larisa what you are working on and where you
-              need help. Whether you are seeking financing,
-              raising capital, selling a business, evaluating
-              commercial real estate, or planning an exit, start
-              with the opportunity.
+              Larisa works with investors, developers, property
+              owners, business owners, and buyers across real estate,
+              lending, capital, and strategic transactions.
+            </p>
+
+            <p>
+              Whether you are seeking financing, raising capital,
+              evaluating a commercial property, selling a business,
+              pursuing an acquisition, or planning an exit, reach
+              out directly.
+            </p>
+          </div>
+
+          <div className="contact-direct">
+            <p className="contact-label">EMAIL LARISA</p>
+
+            <a
+              href="mailto:contact@aboutlarisa.com"
+              className="contact-email-large"
+            >
+              contact@aboutlarisa.com
+            </a>
+
+            <p className="contact-note">
+              Please include a brief description of the opportunity,
+              transaction type, location, and any relevant timing or
+              capital requirements.
             </p>
 
             <a
-              href="mailto:hello@aboutlarisa.com"
-              className="contact-email"
+              href="mailto:contact@aboutlarisa.com"
+              className="primary-button"
             >
-              hello@aboutlarisa.com
+              Email Larisa
             </a>
           </div>
-
-          <form
-            className="contact-form"
-            onSubmit={(event) => event.preventDefault()}
-          >
-            <label>
-              Name
-              <input type="text" name="name" />
-            </label>
-
-            <label>
-              Email
-              <input type="email" name="email" />
-            </label>
-
-            <label>
-              Company
-              <input type="text" name="company" />
-            </label>
-
-            <label>
-              What can Larisa help with?
-              <select name="service">
-                <option value="">Select one</option>
-                <option>Real Estate Lending</option>
-                <option>Fundraising</option>
-                <option>Commercial Real Estate</option>
-                <option>Business Sale / M&A</option>
-                <option>Private Capital</option>
-                <option>Other</option>
-              </select>
-            </label>
-
-            <label>
-              Tell us about the opportunity
-              <textarea name="message" rows="6" />
-            </label>
-
-            <button type="submit" className="primary-button">
-              Submit Inquiry
-            </button>
-          </form>
         </div>
       </section>
     </>
@@ -88,3 +69,4 @@ const Contact = () => {
 };
 
 export default Contact;
+```
