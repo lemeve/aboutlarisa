@@ -12,7 +12,6 @@ const Contact = () => {
         </h1>
       </section>
 
-      ```jsx
       <section className="contact-page section">
         <div className="section-label">
           <span>01</span>
@@ -65,8 +64,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      ```
-
+    </>
+  );
+};
 
 export default Contact;
 ```
